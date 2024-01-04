@@ -1,0 +1,70 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#boxes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#box1, #box2, #box3 {
+    border: 10px solid black;
+    height: 500px;
+    width: 300px;
+}
+#gameInfo {
+    position: absolute;
+    bottom: 0;
+    margin-left: 2px;
+    width: 300px;
+    height: 200px;
+    margin-left: 583px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: white;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #gameInfo {
+        flex-direction: column;
+    }
+}
+button {
+    border: none;
+    width: 100px;
+    background-color: rgb(47, 47, 215);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 35px;
+    margin-left: 94px;
+}
+button:hover {
+    border: none;
+    width: 100px;
+    background-color: none;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    height: 35px;
+    margin-left: 94px;
+}
+#gameInfo p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 700px; */
+}
+/* #score {
+    text-align: left;
+}
+#level {
+    text-align: center;
+}
+#playerName {
+    text-align: right;
+} */
